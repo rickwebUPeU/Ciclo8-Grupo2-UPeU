@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #a71010;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Colores para cada sección */
+#inicio {
+    background-color: #e0f7fa; /* Aqua */
+}
+
+#bibliografia {
+    background-color: #ffe0b2; /* Light Orange */
+}
+
+#habilidades {
+    background-color: #d1c4e9; /* Light Purple */
+}
+
+#suenos {
+    background-color: #c8e6c9; /* Light Green */
+}
+
+#viajes {
+    background-color: #ffccbc; /* Light Red */
+}
+
+#proyectos {
+    background-color: #bbdefb; /* Light Blue */
+}
+
+#contacto {
+    background-color: #f8bbd0; /* Light Pink */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: hsl(248, 85%, 39%);
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
